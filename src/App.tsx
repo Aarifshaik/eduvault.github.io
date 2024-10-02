@@ -9,7 +9,9 @@ import Admin from "@/pages/admin";
 import RegisterPage from "@/pages/register";
 import UserPage from "@/pages/pricing";
 // import { FloatingDockDemo } from "./pages/floatdock";
-// import { NavbarDemo } from "./pages/navbar-float";
+import { NavbarDemo } from "./pages/navbar-menu";
+// import {FloatingNavDemo} from "./pages/float-navbar";
+
 
 function App() {
   return (
@@ -22,8 +24,10 @@ function App() {
       <Route element={<Admin />} path="/admin" />  {/* Add Admin route */}
       <Route element={<RegisterPage />} path="/register" />  {/* Add Register route */}
       {/* <Route element={<FloatingDockDemo />} path="/floatdock" /> */}
+      
+      {/* <Route element={<FloatingNavDemo />} path="/floatnavbar"/> */}
       <Route element={<UserPage />} path="/user" />
-      {/* <Route element={<NavbarDemo />} path="/navbar" /> */}
+      <Route element={<NavbarDemo />} path="/navbar" />
     </Routes>
   );
 }

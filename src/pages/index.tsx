@@ -23,7 +23,7 @@ export default function IndexPage() {
           knowledge, one resource at a time.
           </h1>
           <h4 className={subtitle({ class: "mt-4" })}>
-            Beautiful, fast and modern React UI library.
+          "Where Curiosity Meets Opportunity"
           </h4>
         </div>
 
@@ -37,15 +37,17 @@ export default function IndexPage() {
             })}
             href={siteConfig.links.docs}
           >
-            Documentation
+            Get Started
           </Link>
           <Link
             isExternal
-            className={buttonStyles({ variant: "bordered", radius: "full" })}
+            className={buttonStyles({ variant: "bordered", radius: "full"})}
+            // color="red"
             href={siteConfig.links.github}
           >
-            <GithubIcon size={20} />
-            GitHub
+            {/* <GithubIcon size={20} /> */}
+            {/* GitHub */}
+            Browse Library
           </Link>
         </div>
 
@@ -61,3 +63,7 @@ export default function IndexPage() {
     </DefaultLayout>
   );
 }
+
+
+
+"Empowering minds with Endless knowledge, one resource at a time."

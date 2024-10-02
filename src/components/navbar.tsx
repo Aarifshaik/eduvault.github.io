@@ -117,7 +117,7 @@ export const Navbar = () => {
         justify="end"
       >
         <NavbarItem className="hidden sm:flex gap-2">
-          <Link isExternal href={siteConfig.links.twitter}>
+          <Link isExternal href={siteConfig.links.linkedin}>
             <TwitterIcon className="text-default-500" />
           </Link>
           <Link isExternal href={siteConfig.links.discord}>
